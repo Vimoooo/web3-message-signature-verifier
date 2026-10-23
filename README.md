@@ -3,7 +3,7 @@ import json
 from web3 import Web3
 
 RPC_URL = os.getenv("RPC_URL")
-PRIVATE_KEY = os.getenv("PRIVATE_KEY")
+PRIVATE_KEY = os.getenv("")
 MESSAGE = os.getenv("MESSAGE", "Hello Web3")
 
 if not RPC_URL or not PRIVATE_KEY:
